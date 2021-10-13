@@ -1,0 +1,174 @@
+From pavlos protopapas to Everyone 03:01 PM
+Goooooooood evening
+From Mayank Gupta to Everyone 03:01 PM
+good evening sir...
+From Aman Jolly to Everyone 03:01 PM
+good evening sir
+From Alok Pandey to Everyone 03:01 PM
+Good Evening professor
+From Aamir Ahmad Ansari to Everyone 03:01 PM
+good evening professors.
+From Samyak Jain to Everyone 03:01 PM
+Good evening professors!
+From Priyanshu Tanwar to Everyone 03:01 PM
+Good Evening!
+From Jai Aravind to Everyone 03:01 PM
+Good Evening everyone
+From Praveen Kumar Vijayan to Everyone 03:01 PM
+Good evening everyone
+From Karthiga D to Everyone 03:02 PM
+good evening professor
+From Manikya Bardhan to Everyone 03:05 PM
+We used p value threshold of 0.05 for significance earlier. Is there any particular reason for this? In what scenario would we want to change this?
+Yeah
+From Mayank Gupta to Everyone 03:06 PM
+sir last time you showed a graph of prediction features which are important and features which are important as per p values. For any example solving in the future should we show both items??
+From Manikya Bardhan to Everyone 03:06 PM
+Yeah got it!
+From Akshay Ranjith to Everyone 03:15 PM
+classify if its a hot dog or not.
+From Kuldeep Prasad to Everyone 03:16 PM
+😁
+From pavlos protopapas to Everyone 03:16 PM
+Funny …. Actually I have that exact example in decision trees
+From Himanshu Kandpal to Everyone 03:16 PM
+spam or ham
+From Aamir Ahmad Ansari to Everyone 03:18 PM
+yes
+From amit pathak to Everyone 03:20 PM
+I am good?
+did I do something wrong?
+sure
+From sonali Yadav to Everyone 03:21 PM
+its not gradually changing or anything
+its either 0 or 1
+From Raghav Sahni to Everyone 03:24 PM
+why aren't they continuous?
+From Mayank Gupta to Everyone 03:24 PM
+sir at higher values all the impact will be same.
+From Yashraj Wani to Everyone 03:25 PM
+@Raghav they're continuous but not differentiable
+From sai sindhu yarlagadda to Everyone 03:26 PM
+sigmoid
+From Bhaskar Bharat to Everyone 03:26 PM
+Professor, will applying a polynomial regression improve the prediction?
+From viraj kadam to Everyone 03:27 PM
+can the output be scaled  with max of output, and then be considered as probabilities?
+From Raghav Sahni to Everyone 03:30 PM
+why do we use sigmoid and not signum?
+From Himanshu Kandpal to Everyone 03:30 PM
+what is signum?
+From Raghav Sahni to Everyone 03:31 PM
+its also a function
+with a range {-1,0,1}
+From Amit Gupta to Everyone 03:31 PM
+I think signum is not differential at +-1
+From P Ashish Sharma to Everyone 03:31 PM
+is beta0 and beat1 is same as weight and biase ?
+From pavlos protopapas to Everyone 03:33 PM
+Someone is doing blockchain here
+Here we use sigmoid
+Signum takes the sign of the function
+The original preceptor I believe used signum
+From Raghav Sahni to Everyone 03:33 PM
+I see thanks professor
+From Shibani Budhraja to Everyone 03:36 PM
+So Beta1 defines the threshold in a sense?
+Or informs it rather
+From Vishnu M (TA) to Everyone 03:38 PM
+Not really @Shibani.
+Threshold is independent of the beta0 or beta1. You can also think the threshold as a hyperparameter instead
+we will soon cover ROC AUC which will make it more clear.
+From Shibani Budhraja to Everyone 03:38 PM
+Yes I think I worded that poorly , I just mean a higher beta1 makes for a clearer distinction , does that make more sense?
+From Vishnu M (TA) to Everyone 03:39 PM
+Yes, that's correct
+From Shibani Budhraja to Everyone 03:40 PM
+Thankyou!
+From Mayank Gupta to Everyone 03:41 PM
+in horse racing
+From ekanki agarwal to Everyone 03:47 PM
+a threshold of probability>=0.5 for y=1 doesnt necessarily translate to beta0+beta1x>=0, right? It would depend on beta0 and beta1 estimates which define the sigmoid curve, which in turn would result in some other threshold for beta0+beta1x>=?  for the corresponding probability threshold of 0.5.
+From pavlos protopapas to Everyone 03:49 PM
+Actually the equation betaX = 0 is the P(Y=1) = 0.5
+right
+?
+Ignacio will soon talk about turning probabilities to labels
+From viraj kadam to Everyone 03:54 PM
+how does the accuracy_score metric calculated?
+From pavlos protopapas to Everyone 03:55 PM
+It is the number of correct predictions divide by the total number of points
+From Vishal Balaji to Everyone 03:55 PM
+Total correct / Total
+From Raghav Sahni to Everyone 03:57 PM
+if there were 4 would we put 0.25 intervals?
+4 categories
+From viraj kadam to Everyone 03:58 PM
+If the data set is imbalanced, will a higher (or lower ) threshold value help?
+From Vishnu M (TA) to Everyone 03:58 PM
+It will be covered in the future lectures @Viraj
+From Meghana Sarikonda(TA) to Everyone 03:59 PM
+It will be covered in the coming lectures.
+From Dinesh Yedakula to Everyone 04:01 PM
+like normality of residuals in linear regression.How do we check linear assumption in Logistic Regression ?
+From pavlos protopapas to Everyone 04:02 PM
+You can look at the residuals of the log-odds
+From Vishal Balaji to Everyone 04:02 PM
+Putting a Beta0 of 0.1 on the notebook just gives a flat line at 0. Why is that?
+From pavlos protopapas to Everyone 04:03 PM
+@Vishal plot is from -20 to 20
+I meant plot it from -20 to 20
+From Harsh Goyal to Everyone 04:03 PM
+@vishal, in that case our model is predicting everything to be of class 0
+From pavlos protopapas to Everyone 04:03 PM
+You will see the full function
+From Harsh Goyal to Everyone 04:03 PM
+‘no’
+From Vishal Balaji to Everyone 04:03 PM
+Thanks prof
+From Rafi Mohammad to Everyone 04:04 PM
+professor can we use bernoullis distribution in logestic regression
+From pavlos protopapas to Everyone 04:05 PM
+@Rafi: Wait for it
+It is on the slide NOW
+From Rafi Mohammad to Everyone 04:05 PM
+ok , professor
+From pavlos protopapas to Everyone 04:06 PM
+Here it is …. he anticipates your questions
+From Shibani Budhraja to Everyone 04:06 PM
+👏perfect timing
+From viraj kadam to Everyone 04:09 PM
+product
+From pavlos protopapas to Everyone 04:10 PM
+I thought that capital pi stands for Πρωτοπαπας
+From Alok Pandey to Everyone 04:11 PM
+How do you read that?
+From Raghav Sahni to Everyone 04:11 PM
+hahaha
+From Shibani Budhraja to Everyone 04:11 PM
+Its our Professor! 😅 @Alok
+From Vishnu M (TA) to Everyone 04:12 PM
+good catch @Shiani XD
+From Rafi Mohammad to Everyone 04:15 PM
+some models not able to give exact probabilities for classification problem then how can we use logloss metric for that scenario
+From viraj kadam to Everyone 04:15 PM
+why can this equation not have a closed form solution?
+From Praveen Kumar Vijayan to Everyone 04:16 PM
+When we say closed form solution, do we mean a direct analytical formula to compute the cross entropy?
+From Vishal Balaji to Everyone 04:40 PM
+Why do we have a random_state in logistic regression?
+Can’t figure it out from the doc
+From Sanivada Sai Chaitanya to Everyone 04:40 PM
+I have the same Question
+From pavlos protopapas to Everyone 04:45 PM
+Because finding the optimal values of beta is using some form of solver
+Solvers in genera use greedy algorithms
+And greedy algorithms depend on the initial step -> therefore there is a randomness
+Which we set so the tests we perform behind the scenes are consistent
+Note: other optimization methods like stochastic gradient descent have more randomness. We will COVER stochastic gradient descent in session 9 or 10 (I do not remember which one)
+From Vishal Balaji to Everyone 04:51 PM
+Got it. Thanks
+From Ekanki agarwal to Everyone 04:55 PM
+So can we say that all the optimizations are done as in beta coefficients are estimated with implicitly taking p=0.5 as the threshold, hence the decision boundary is calculated?
+From pavlos protopapas to Everyone 04:56 PM
+@Ekanki this is a real real good question. It turns out that the threshold =0.5 is when the optimal values of beta.
